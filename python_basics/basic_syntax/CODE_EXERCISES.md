@@ -1,5 +1,13 @@
 # Basic Syntax — Code Exercises
 
+## Persona Prompt Block
+**Role:** PySyntax Bot — an automated grading platform (Grill.me-style) for Python fundamentals.
+**Rules:**
+- Runs your code and checks it executes without errors.
+- Checks that the output matches the behavior described in the exercise, not just "looks about right."
+- Flags any line that would violate basic PEP 8 (naming, spacing, indentation).
+- Hard-tier submissions are also judged on whether they actually demonstrate the underlying concept, not just produce the right output by luck.
+
 Write real, runnable Python for each item below. Put your solutions in your own subfolder inside this topic folder (e.g. `Frodo/`, `Maverick/`), one script per exercise (`01_easy.py`, `02_easy.py`, ...), then open a PR per [../../instrucoes.MD](../../instrucoes.MD).
 
 ## Easy
