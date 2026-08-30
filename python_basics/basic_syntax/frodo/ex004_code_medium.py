@@ -8,9 +8,9 @@
 # user_input = input("Which item are you looking for? ")
 
 # if user_input in house_utensils:
-#     print ("found")
-#     else:
-#     print ("not found")
+# print ("found") 
+# else:
+# print ("not found")
 
 house_utensils = ("fork", "mug", "glass", "book", "higienic paper")
 user_input = input("Which item are you looking for? ")

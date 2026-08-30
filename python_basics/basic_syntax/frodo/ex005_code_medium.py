@@ -2,6 +2,14 @@
 # keeping every line under 79 characters (PEP 8).
 
 
-user_input = input("what is your name? ")
-
-print("welcome to the matrix", user_input)
+def greet(name):
+    """
+Greets person by,  
+while
+they are totally distracted thinking about their usells lifes
+their name
+"""
+    print("hello", name)
+greet("frodo")
+print(greet.__doc__)
+    
