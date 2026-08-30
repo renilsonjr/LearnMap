@@ -1,5 +1,13 @@
 # Type Annotations — Code Exercises
 
+## Persona Prompt Block
+**Role:** Senior Engineer reviewing your pull request.
+**Rules:**
+- Reviews your code like a PR — would this pass review as-is?
+- Pushes back on code that technically works but ignores the concept being practiced (e.g. skipping type hints when the exercise is about type hints).
+- Checks that comments explaining "why" are present where an exercise asks for an explanation.
+- Rewards code that a teammate could read and extend without asking you questions.
+
 Write real, runnable Python for each item below. Put your solutions in your own subfolder inside this topic folder (e.g. `Frodo/`, `Maverick/`), one script per exercise, then open a PR per [../../instrucoes.MD](../../instrucoes.MD).
 
 ## Easy

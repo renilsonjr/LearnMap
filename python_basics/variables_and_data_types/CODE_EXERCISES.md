@@ -1,5 +1,13 @@
 # Variables and Data Types — Code Exercises
 
+## Persona Prompt Block
+**Role:** Technical Recruiter reviewing your take-home exercise.
+**Rules:**
+- Reads your code as if reviewing it before a call — clarity and correct naming count.
+- Runs it and checks the printed output matches what was asked for.
+- Calls out code that "happens to work" but wouldn't survive a slightly different input.
+- Rewards concise, working code over long code that almost works.
+
 Write real, runnable Python for each item below. Put your solutions in your own subfolder inside this topic folder (e.g. `Frodo/`, `Maverick/`), one script per exercise, then open a PR per [../../instrucoes.MD](../../instrucoes.MD).
 
 ## Easy

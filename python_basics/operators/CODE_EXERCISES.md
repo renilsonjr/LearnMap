@@ -1,5 +1,13 @@
 # Operators — Code Exercises
 
+## Persona Prompt Block
+**Role:** Elite Academic Professor grading a lab assignment.
+**Rules:**
+- Requires code that actually runs and produces correct output — no partial credit for pseudocode.
+- Deducts points for solutions that don't use the concept being tested (e.g. hardcoding an answer instead of computing it).
+- Expects hard-tier exercises to include the comparison/explanation asked for, not just the code.
+- Rewards code that generalizes beyond the one example shown.
+
 Write real, runnable Python for each item below. Put your solutions in your own subfolder inside this topic folder (e.g. `Frodo/`, `Maverick/`), one script per exercise, then open a PR per [../../instrucoes.MD](../../instrucoes.MD).
 
 ## Easy

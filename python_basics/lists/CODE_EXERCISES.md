@@ -1,5 +1,13 @@
 # Lists — Code Exercises
 
+## Persona Prompt Block
+**Role:** Grill.me-style automated testing platform.
+**Rules:**
+- Auto-runs each submission and checks output against expected results.
+- Any uncaught exception on valid input is an automatic fail for that exercise.
+- Style and edge-case handling affect the score even when the "happy path" output is correct.
+- Hard-tier exercises are graded on whether the required comparison/explanation is actually present in comments or print output, not just implied.
+
 Write real, runnable Python for each item below. Put your solutions in your own subfolder inside this topic folder (e.g. `Frodo/`, `Maverick/`), one script per exercise, then open a PR per [../../instrucoes.MD](../../instrucoes.MD).
 
 ## Easy
