@@ -5,7 +5,7 @@
 
 1 - #
 
-2 - parentheses
+2 - Python usa indentação espacos, ou recuos para definir blocos de codigo, ao inves de chaves
 
 3 - yes, Variable has an uppercase, and variable is all lowercase, for python those are different words, must be specified in your program if you wanna read both, normalize.
 
@@ -15,4 +15,10 @@
 6. What does PEP 8 recommend for line length and indentation, and why does following it matter on a team project?
 7. Why does inconsistent indentation inside the same block raise an `IndentationError`? What rule is being violated?
 
-4 - 
+4 - statement eh so um trecho sem funcao, e a expression tem uma funcao ali (nao sei como explicar)
+
+5 - semicolon is to tell python to continue the function bellow
+
+6 - is a rule for python, you need to have a specif space for when writing code in python
+
+7 - u need to follow the block space to communicate with the function correctly
