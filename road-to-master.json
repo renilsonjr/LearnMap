@@ -1,0 +1,114 @@
+{
+    "icp144": {
+        "materia": "Matemática Discreta",
+        "descrição": "Revisão sobre permutações, combinações e arranjos. Princípio de inclusão e exclusão. Números binomiais. Triângulo de Pascal. Números de Fibonacci e recorrências lineares de segunda ordem. Grafos: definição; grau de um vértice; caminhos, ciclos e conectividade; caminhos de Euler e ciclos hamiltonianos; árvores; contagem de árvores; grafos bipartidos e aplicações; grafos planares e a fórmula de Euler; coloração de mapas e grafos; teorema das cinco cores.",
+        "bibliografia": "1) L. Lovász, J. Pelikán e K. Veszterbombi, Matemática discreta, SBM",
+        "grade": 4,
+        "link": ""
+    },
+    "mae111": {
+        "materia": "Cálculo Infinitesimal I",
+        "descrição": "Funções de uma variável real. Limites e derivadas. Cálculo de derivadas e aplicações. Teorema do valor médio. Integral definida. Teorema fundamental do cálculo. Cálculo de integrais e aplicações.",
+        "bibliografia": "",
+        "grade": 10,
+        "link": ""
+    },
+    "icp115": {
+        "materia": "Álgebra Linear Algorítmica",
+        "descrição": "Vetores no plano, base e combinação linear. Transformações lineares e matrizes no plano. Autovalores e autovetores para operadores do plano. Diagonalização e mudança de variáveis em dimensão dois. Sistemas lineares e eliminação gaussiana. Rn e seus subespaços. Interseção, soma e complemento de subespaços. Dependência e independência linear. Base e coordenadas. Transformações lineares e matrizes. Mudança de base. Autovalores e autovetores e diagonalização de operadores.",
+        "bibliografia": "",
+        "grade": 6,
+        "link": "icp144"
+    },
+    "ICP116": {
+        "materia": "Estruturas de Dados",
+        "descrição": "Complexidade de algoritmos. Listas lineares em alocação sequencial e dinâmica. Árvores, Árvores Binárias de Busca e Árvores balanceadas, heap. Tabelas de dispersão (hash tables). Conjuntos, coleção de conjuntos disjuntos. Listas de Prioridades. Algoritmos de ordenação: Radix sort, quick e heap sort.",
+        "bibliografia": "Jayme L. Szwarcfiter e Lilian Markenzon. Estruturas de Dados e seus Algoritmos. LTC, 3ª ed, 2010.",
+        "grade": 10,
+        "link": ""
+    },
+    "ICP238": {
+        "materia": "Introd à Computação Numérica",
+        "descrição": "Noções sobre erros e representação de ponto flutuante. Número de condicionamento e sensibilidade dos métodos numéricos. Diferenciação numérica e Polinômio de Taylor. Cálculo de zeros de funções. Interpolação polinomial: formas de Lagrange e de Newton. Integração numérica. Métodos numéricos para equações diferenciais ordinárias.",
+        "bibliografia": "R. L. Burden e J. D. Faires, Análise Numérica, Cengage Learning (2008).",
+        "grade": 2,
+        "link": "mae111"
+    },
+    "MAE992": {
+        "materia": "Cálculo Integ e Diferencial II",
+        "descrição": "Curvas no plano e no espaço, velocidade e aceleração. Funções de duas e mais variáveis, derivadas direcionais. Derivadas parciais e derivada como aproximação linear. Funções implícitas, multiplicadores de lagrange. Hessiana. Equações diferenciais ordinárias de primeira ordem e equações diferenciais ordinárias de segunda ordem com coeficientes constantes.",
+        "bibliografia": "",
+        "grade": 10,
+        "link": "mae111"
+    },
+    "ICP248": {
+        "materia": "Comput Científ e Análise Dados",
+        "descrição": "Sistemas lineares: Modelagem de sistemas lineares, Métodos diretos: Fatoração LU e QR., Métodos iterativos: Gauss-Jacobi; Gauss-Seidel. Ajuste de curvas: Modelagem; Método dos Mínimos quadrados; Curvas Spline. SVD e autovalores: Modelagem: Sistema lineares dinâmicos; Métodos iterativos: Método da potência; Algoritmo QR.; Aplicações: Redução de dimensão; Pseudoinversa. Sistemas não lineares: Modelagem de sistemas não lineares; Método de Newton; Método do gradiente descendente.",
+        "bibliografia": "R. L. Burden e J. D. Faires, Análise numérica, Cengage Learning (2008);  Mark H. Holmes, Introduction to scientific computing and data analysis. Springer (2016).",
+        "grade": 9,
+        "link": "icp115, MAE992, ICP238"
+    },
+    "MAD243": {
+        "materia": "Estatística e Probabilidade",
+        "descrição": "Noções básicas de Estatística e Probabilidade. Análise exploratória. Variáveis aleatórias e Distribuições de Probabilidades. Distribuições conjuntas marginais e condicionais. Valores esperados. Teoremas limites. Teorema central do limite. Distribuições amostrais. Estimação de parâmetros. Testes de Hipóteses..",
+        "bibliografia": "",
+        "grade": 10,
+        "link": "MAE992"
+    },
+    "ICP351": {
+        "materia": "Model Matemát e Computacional",
+        "descrição": "Etapas do processo de modelagem. Modelos científicos e definição de modelo matemático. Classificação dos modelos de interesse. Apresentação de exemplos dos vários tipos de modelos. Modelagem de problemas de diferentes áreas do conhecimento, como física, biologia, etc., baseados em sistemas de equações de diferenças e diferenciais, otimização, grafos e cadeias de Markov. Outros tópicos de interesse a critério do professor.",
+        "bibliografia": " F. R. Giordano, W. P . Fox e S. B Horton, A First Course in Mathematical Modeling, Cengage Learning, 5ª edição (2013).",
+        "grade": 8,
+        "link": "MAE992, icp115"
+    },
+    "ICP368": {
+        "materia": "Algoritmos e Grafos",
+        "descrição": "Representação de Grafos; Ordenação Topológica; Buscas em grafos e Digrafos (largura e profundidade); Técnicas de Desenvolvimento de Algoritmos; Decomposição; Recursão; Algoritmo Guloso; Programação Dinâmica; Aplicação das Técnicas Usadas; Fluxo Máximo.",
+        "bibliografia": "Teoria Computacional de Grafos; os algoritmos. Jayme Luiz Swarcfiter, Fabiano S. Oliveira e Paulo E. D. Pinto. Elsevier, 2018.",
+        "grade": 10,
+        "link": "icp144, ICP116"
+    },
+    "ICP361": {
+        "materia": "Programação Concorrente",
+        "descrição": "Técnicas de programação concorrente: multiprocessos, multithreading. Comunicação via variáveis compartilhadas e troca de mensagens. Sincronização por exclusão mútua e condicional e métodos de trava: locks, semáforos, variáveis de condição. Problemas clássicos da concorrência. Deadlock, starvation, thread safety. Programação assíncrona: futuros, promessas, async/await. Modelagem, teste e avaliação de programas concorrentes. Ambientes de programação concorrente.",
+        "bibliografia": " R. E. Bryant e D. R. O'Hallaron, Computer Systems - a Programmer's Perspective, 3 ed, Pearson, 2015.",
+        "grade": 5,
+        "link": ""
+    },
+    "ICP363": {
+        "materia": "Introd Aprendizado de Máquina",
+        "descrição": "Contextualizando o aprendizado de máquina (história e paradigmas); Questões éticas; Tipos de aprendizado de máquina: supervisionado, não supervisionado, por reforço; Métricas de avaliação; Tipos de problemas; Métodos de aprendizado: classificação (árvore de decisão, regressão linear, regressão logística, classificador Bayesiano, redes neurais, SVM), agrupamento (K-means, classificação hierárquico), associação (algoritmos a priori); Aprendizado por reforço; Programação em lógica indutiva.",
+        "bibliografia": "Russell, S.; Norvig,P.: Inteligência Artificial - GEN LTC; 3ª edição (2017).;Géron, A. Mãos à obra: aprendizado de máquina com Scikit-Learn & TensorFlow; Alta Books; 1ª ed, 2019.",
+        "grade": 10,
+        "link": "ICP248, MAD243"
+    },
+    "ICP365": {
+        "materia": "Otimização",
+        "descrição": "Modelagem e caracterização dos problemas. Programação linear. Programação linear inteira. Programação não linear irrestrita. Aplicações.",
+        "bibliografia": "M. Goldbarg e H. P. L. Luna, Otimização Combinatória e Programação Linear, Elsevier, 2ª edição (2005); J. Nocedal e S. J. Wright, Numerical Optimization, Springer, 2ª edição (2006).",
+        "grade": 5,
+        "link": "icp115, ICP238"
+    },
+    "ICP019": {
+        "materia": "Álgebra Linear Aplicada",
+        "descrição": "Matrizes definidas positivas. Fatoração Cholesky e QR. Métodos iterativos para autovalores e valores singulares. Aproximação de matriz. Aplicações de grande porte em ciência de dados, equações diferenciais, teoria dos grafos, processamento de imagens e aprendizado de máquina. Condicionamento e estabilidade. Matrizes esparsas. Álgebra linear em blocos. Pré-condicionadores.",
+        "bibliografia": "L. N. Trefethen e D. Bau III, Numerical Linear Algebra, SIAM (1997); G. H. Golub e C. F. Van Loan, Matrix Computations, Johns Hopkins University Press, 3ª edição (1996); G. Strang, Linear Algebra and Learning from Data, Wellesley-Cambridge Press (2019).",
+        "grade": 5,
+        "link": "ICP248"
+    },
+    "ICP472": {
+        "materia": "Metodologia da Pesquisa",
+        "descrição": "Concepções do conhecimento e da pesquisa acadêmica. Tipos e processo de pesquisa. Estruturação, redação e formatação de projeto de pesquisa. Relevância, fundamentação e contextualização. Levantamento de fontes e referências. Ética na redação científica. Métodos e estratégias de pesquisa. Coleta e análise de dados. Planejamento e cronograma.",
+        "bibliografia": "D. S. Dias e M. F. Silva, Como Escrever uma Monografia, Atlas, 2ª edição (2010); M. Alves, Como Escrever Teses e Monografias: um Roteiro Passo a Passo, Elsevier (2003).",
+        "grade": 5,
+        "link": "ICP351, ICP363"
+    },
+    "CPE727": {
+        "materia": "Aprendizado Profundo",
+        "descrição": "Estatística de ordem superior, otimização, regularização, modelos baseados em energia, modelos baseados em representação, redes convolutivas, redes recursivas e aplicações.",
+        "bibliografia": "I. Goodfellow, Y. Bengio e A. Courville, Deep Learning, MIT Press (2016); L. Deng e D. Yu, Deep Learning: Methods and Applications, Now Publishers (2014).",
+        "grade": 5,
+        "link": "ICP363, ICP365, ICP019"
+    }
+}
