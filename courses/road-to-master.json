@@ -8,8 +8,8 @@
     },
     "mae111": {
         "materia": "Cálculo Infinitesimal I",
-        "descrição": "Funções de uma variável real. Limites e derivadas. Cálculo de derivadas e aplicações. Teorema do valor médio. Integral definida. Teorema fundamental do cálculo. Cálculo de integrais e aplicações.",
-        "bibliografia": "",
+        "descrição": "Ideias fundamentais de limites, derivadas, integrais e séries. Integral definida por partições e somas de Riemann. Derivadas, gráficos, Teorema Fundamental do Cálculo, métodos de integração e aplicações. Construção e completude dos números reais. Limites e continuidade. Teoremas sobre continuidade e Teorema do Valor Médio. Polinômio de Taylor de uma variável. Funções inversas e construção de logaritmo e exponencial. Sequências, séries numéricas e séries de potências. Convergência uniforme e construção das funções trigonométricas.",
+        "bibliografia": "R. Courant, Differential and Integral Calculus, Vol. 1; T. M. Apostol, Calculus, Vol. 1; M. Spivak, Calculus; J. Stewart, Cálculo, Vol. 1.",
         "grade": 10,
         "link": ""
     },

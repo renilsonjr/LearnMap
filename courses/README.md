@@ -1,6 +1,6 @@
 # Modelo dos cursos
 
-Este diretório transforma as disciplinas de [`road-to-master.json`](../road-to-master.json) em cursos autogerenciados. O JSON define o mapa e a ordem; cada subdiretório contém a execução pedagógica de uma disciplina.
+Este diretório transforma as disciplinas de [`road-to-master.json`](../road-to-master.json) em cursos autogerenciados. O JSON define o mapa e a ordem; cada subdiretório contém a execução pedagógica de uma disciplina. A carga e a ordem global estão simuladas em [`ROADMAP.md`](./ROADMAP.md); o procedimento completo para agentes está em [`INSTRUCOES_DE_GERACAO.md`](./INSTRUCOES_DE_GERACAO.md).
 
 [`MAE111`](./MAE111/) é a implementação de referência deste modelo.
 
@@ -65,6 +65,7 @@ Mesmo em versões resumidas, os objetivos essenciais e as dependências conceitu
 - Depois da PF, `MF = (MP + PF) / 2`; `MF >= 5` representa aprovação.
 - Pelo menos 75% das atividades obrigatórias devem ser entregues.
 - P1, P2 e PF têm dez questões: 3 fáceis, 4 médias e 3 difíceis.
+- Nas provas do modelo, questões fáceis valem 0,5, médias valem 1,0 e difíceis valem 1,5, totalizando 10,0.
 - Provas e listas não incluem gabaritos. A correção posterior deve usar as skills locais de avaliação e tutoria.
 
 ## Desafios por natureza
