@@ -1,2 +1,6 @@
 .venv/
 .DS_Store
+
+# zybooks / CTU exercise solutions - local only, never commit
+CTU_CODE_EXCERCISES*
+ctu_code_exercises*
