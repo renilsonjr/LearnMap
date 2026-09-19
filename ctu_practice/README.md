@@ -8,8 +8,9 @@ This folder is **separate from `python_basics/`** on purpose: it's extra practic
 
 1. [Week 1 — Fundamentals](week1/CODE_EXERCISES.md): print/input, type conversion, expressions, float formatting, debugging syntax and logic errors.
 2. [Week 2 — Conditionals](week2/CODE_EXERCISES.md): if/elif/else, boolean logic, nested ifs, indentation, dictionary lookups.
+3. [Week 3 — Lists, Tuples, and Loops](week3/CODE_EXERCISES.md): lists and tuples, `while`/`for` loops, sentinel values, nested loops, looping over strings and dictionaries.
 
-More weeks get added here as you go (Week 3, Week 4, ...) — same format each time.
+Week 4 gets added here when you have it — same format each time.
 
 ## How to use
 
