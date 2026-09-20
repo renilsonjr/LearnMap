@@ -1,6 +1,6 @@
 # Instruções para gerar os cursos do `road-to-master.json`
 
-Use este documento sempre que criar, completar ou revisar um curso derivado de [`road-to-master.json`](../road-to-master.json). O objetivo é produzir cursos autogerenciados, em português, fiéis às referências da UFRJ e adaptados à preparação para um mestrado em Inteligência Artificial.
+Use este documento sempre que criar, completar ou revisar um curso derivado de [`road-to-master.json`](./road-to-master.json). O objetivo é produzir cursos autogerenciados, em português, fiéis às referências da UFRJ e adaptados à preparação para um mestrado em Inteligência Artificial.
 
 O contrato pedagógico e de arquivos está em [`courses/README.md`](./README.md). A carga e a ordem global estão em [`ROADMAP.md`](./ROADMAP.md). [`MAE111`](./MAE111/) é a implementação de referência, não uma fonte de conteúdo para outras disciplinas.
 

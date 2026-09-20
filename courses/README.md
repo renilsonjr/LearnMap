@@ -1,6 +1,6 @@
 # Modelo dos cursos
 
-Este diretório transforma as disciplinas de [`road-to-master.json`](../road-to-master.json) em cursos autogerenciados. O JSON define o mapa e a ordem; cada subdiretório contém a execução pedagógica de uma disciplina. A carga e a ordem global estão simuladas em [`ROADMAP.md`](./ROADMAP.md); o procedimento completo para agentes está em [`INSTRUCOES_DE_GERACAO.md`](./INSTRUCOES_DE_GERACAO.md).
+Este diretório transforma as disciplinas de [`road-to-master.json`](./road-to-master.json) em cursos autogerenciados. O JSON define o mapa e a ordem; cada subdiretório contém a execução pedagógica de uma disciplina. A carga e a ordem global estão simuladas em [`ROADMAP.md`](./ROADMAP.md); o procedimento completo para agentes está em [`INSTRUCOES_DE_GERACAO.md`](./INSTRUCOES_DE_GERACAO.md).
 
 [`MAE111`](./MAE111/) é a implementação de referência deste modelo.
 

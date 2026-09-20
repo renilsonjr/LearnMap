@@ -1,6 +1,6 @@
 # Roadmap de preparação para Inteligência Artificial
 
-Esta simulação aplica o [modelo dos cursos](./README.md) às 16 disciplinas de [`road-to-master.json`](../road-to-master.json). Ela serve para dimensionar o projeto antes da produção dos demais materiais; não é um calendário imutável.
+Esta simulação aplica o [modelo dos cursos](./README.md) às 16 disciplinas de [`road-to-master.json`](./road-to-master.json). Ela serve para dimensionar o projeto antes da produção dos demais materiais; não é um calendário imutável.
 
 ## Premissas
 
