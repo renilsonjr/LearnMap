@@ -3,106 +3,66 @@
 ## Instruções
 
 - **Duração:** 120 minutos.
-- **Valor:** 10,0 pontos, sendo 1,0 ponto por questão.
-- Esta prova é condicional: realize-a somente quando `3 <= MP < 7`, conforme o plano do curso.
+- **Valor:** 10,0 pontos.
+- Realize esta prova somente quando `3 <= MP < 7`.
 - Faça a prova individualmente, sem consulta, calculadora, Python ou sistema de álgebra simbólica.
-- A avaliação é cumulativa. Justifique limites, regras, técnicas e teoremas; informe domínios e unidades.
-- Distribua o tempo: uma questão difícil incompleta não deve impedir tentativas fundamentadas nas demais.
+- A prova procura evidência de recuperação nos fundamentos; respostas parciais devem deixar passos verificáveis.
+- Distribuição: 3 fáceis de 0,5 ponto, 4 médias de 1,0 ponto e 3 difíceis de 1,5 ponto.
 
 ## Persona de correção
 
-**Papel:** comissão de prova final que procura evidência integrada de recuperação, rigor básico e autonomia matemática.
+**Papel:** comissão de recuperação avaliando se o estudante consegue integrar cálculo operacional, fundamentos e convergência com autonomia mínima.
 
-**Política:** a comissão avalia se o estudante conecta representações algébricas, gráficas e aplicadas. Crédito parcial exige passos verificáveis. Respostas obtidas por tentativa numérica sem argumento, teoremas sem hipóteses e integrais sem interpretação perdem o núcleo da pontuação.
+**Política:** a comissão concede crédito parcial por estratégia correta e penaliza principalmente objetos sem domínio, teoremas sem hipótese e manipulações de séries sem região de validade. As questões difíceis aceitam argumentos concisos, desde que logicamente completos.
 
-As respostas e o gabarito estão deliberadamente ocultos. Esta prova deve permanecer inédita até a sessão oficial de 120 minutos.
+Respostas e gabaritos estão deliberadamente ocultos. Preserve a prova inédita até a sessão de 120 minutos.
 
-## Questões fáceis — 3 questões
+## Questões fáceis — 1,5 ponto
 
-### Questão 1 — 1,0 ponto
+### Questão 1 — 0,5 ponto
 
-Determine o domínio real de
+Calcule `lim_(x→2)(x²+x-6)/(x-2)` sem usar l'Hôpital.
 
-`f(x)=ln(4-x²)/(x-1)`
+### Questão 2 — 0,5 ponto
 
-e calcule `lim_(x→1)ln x/(x-1)`, justificando a técnica empregada.
+Derive `f(x)=ln(1+x²)` e informe seu domínio real.
 
-### Questão 2 — 1,0 ponto
+### Questão 3 — 0,5 ponto
 
-Derive
+Calcule `∫_0^1xe^(x²)dx` por substituição.
 
-`g(x)=(x²+1)e^(-2x)`
-
-e encontre a equação da reta tangente em `x=0`.
-
-### Questão 3 — 1,0 ponto
-
-Calcule
-
-`∫_0^(π/2)(sin x+2cos x)dx`
-
-e explique geometricamente por que o resultado deve ser positivo.
-
-## Questões médias — 4 questões
+## Questões médias — 4,0 pontos
 
 ### Questão 4 — 1,0 ponto
 
-Considere
-
-`f(x)=ax+b`, se `x<0`, e `f(x)=e^x`, se `x≥0`.
-
-Determine `a` e `b` para que `f` seja derivável em `0`. Sua solução deve verificar primeiro continuidade e depois igualdade das derivadas laterais.
+Mostre pela definição que `a_n=(2n-1)/(n+3)` converge e determine seu limite. Escreva uma escolha explícita de `N` em função de `ε`.
 
 ### Questão 5 — 1,0 ponto
 
-Use o Teorema do Valor Intermediário para provar que `x³+x-3=0` tem uma raiz em `(1,2)`. Em seguida, use o Teorema do Valor Médio ou uma consequência dele para provar que a raiz é única.
+Uma função contínua `f:[-1,2]→R` satisfaz `f(-1)=-3` e `f(2)=6`. Declare exatamente o que o TVI garante sobre as soluções de `f(x)=0` e explique por que ele não garante unicidade.
 
 ### Questão 6 — 1,0 ponto
 
-Faça a análise de `h(x)=x⁴-4x²`: intervalos de crescimento, extremos locais e absolutos quando existirem em `[-3,3]`, concavidade e pontos de inflexão. Compare todos os candidatos necessários no intervalo fechado.
+Calcule `lim_(x→0)[ln(1+x)-x]/x²` por l'Hôpital, verificando a forma antes de cada aplicação.
 
 ### Questão 7 — 1,0 ponto
 
-Calcule, indicando e justificando a técnica principal de cada item:
+Determine se `Σ_(n=1)^∞(-1)^(n-1)/(n+2)` converge absoluta, condicionalmente ou diverge. Justifique cada parte da classificação.
 
-1. `∫ x ln x dx`, para `x>0`;
-2. `∫ (3x+1)/(x²+x-2) dx` em intervalos que não contenham zeros do denominador.
+## Questões difíceis — 4,5 pontos
 
-Confira ao menos uma das antiderivadas por derivação.
+### Questão 8 — 1,5 ponto
 
-## Questões difíceis — 3 questões
+Use a propriedade do supremo para provar que toda sequência crescente e limitada superiormente converge. Sua resposta deve identificar o candidato a limite e usar a caracterização `s-ε<a_n≤s`.
 
-### Questão 8 — 1,0 ponto
+### Questão 9 — 1,5 ponto
 
-Defina
+Uma região é limitada por `y=2x` e `y=x²`. Encontre as interseções, formule sua área e calcule-a. Depois monte, sem calcular, o volume da rotação dessa região em torno do eixo `y` por cascas cilíndricas.
 
-`F(x)=∫_0^x (t³-3t)dt`.
+### Questão 10 — 1,5 ponto
 
-Sem calcular uma fórmula explícita para `F` até o último item:
-
-1. use o TFC para encontrar os pontos críticos e intervalos de crescimento de `F`;
-2. classifique os extremos locais;
-3. determine a concavidade de `F`;
-4. somente então calcule `F(2)` e interprete-o como acumulação líquida.
-
-### Questão 9 — 1,0 ponto
-
-Um recipiente sem tampa tem base quadrada e volume `32 m³`.
-
-1. Modele a área de material como função do lado `x` da base.
-2. Determine as dimensões que minimizam a área.
-3. Justifique existência e natureza global do mínimo no domínio físico.
-4. Informe a unidade do valor mínimo de material.
-
-### Questão 10 — 1,0 ponto
-
-A região limitada por `y=2x` e `y=x²` gira em torno do eixo `y`.
-
-1. Determine e esboce a região.
-2. Monte e calcule o volume por cascas cilíndricas.
-3. Monte, sem necessidade de recalcular, uma integral equivalente por discos ou anéis em relação a `y`.
-4. Explique por que as duas formulações devem produzir o mesmo número apesar de usarem variáveis e seções diferentes.
+Determine o raio de convergência de `Σ_(n=1)^∞x^n/[n(n+1)]`. Prove convergência uniforme em `[-r,r]` para qualquer `0<r<1` e explique por que isso permite integrar a série termo a termo nesse intervalo.
 
 ---
 
-Calcule `MF` pela regra do [plano de avaliação](../README.md#avaliação-provisória). Para a revisão cumulativa, volte ao [material de estudo](../MATERIAL_DE_ESTUDO.md) e selecione no [arquivo de exercícios](../EXERCICIOS.md) questões associadas aos erros da P1 e da P2.
+Calcule `MF` pela regra do [plano de avaliação](../README.md#avaliação-provisória). Depois da correção, use o [material](../MATERIAL_DE_ESTUDO.md) e as [listas](../EXERCICIOS.md) para revisar somente os blocos em que perdeu pontos.

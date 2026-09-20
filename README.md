@@ -17,4 +17,4 @@ Assessment material is generated and graded with the agent skills in [.agents/sk
 
 ## Road to a master's degree
 
-[`road-to-master.json`](road-to-master.json) defines a prerequisite map for graduate-level preparation in Artificial Intelligence. Degree-style, self-paced courses generated from that map live in [`courses/`](courses/); `courses/MAE111` is the reference implementation.
+[`courses/road-to-master.json`](courses/road-to-master.json) defines a prerequisite map for graduate-level preparation in Artificial Intelligence. Degree-style, self-paced courses generated from that map live in [`courses/`](courses/); `courses/MAE111` is the reference implementation.
