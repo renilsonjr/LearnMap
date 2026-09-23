@@ -5,6 +5,6 @@
 distance = float(input("What is the distance?"))
 speed = float("27000")
 days_traveled = distance / speed / 24
-print("{:.2f}".format (days_traveled))
-print("{:.4f}".format(days_traveled))
+print("Days traveled, 2 decimals: {:.2f}".format (days_traveled))
+print("Days traveled, 4 decimals: {:.4f}".format(days_traveled))
 
