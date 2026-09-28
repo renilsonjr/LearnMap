@@ -3,5 +3,5 @@
 amount1 = float(input())
 amount2 = float(input())
 amount3 = float(input())
-average = amount1 + amount2 + amount3 / 3
+average = (amount1 + amount2 + amount3) / 3
 print("The average purchase amount is: ${:.2f}".format(average))

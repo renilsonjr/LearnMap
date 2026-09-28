@@ -5,4 +5,6 @@
 daily_rate = 35
 days = 6
 weeks = 2
-print("Total pay for a pet-sitter is $",(daily_rate), "working",(days), "days, per",(weeks),"weeks.")
+
+print("The daily rate for a pet-sitter is ${}, ".format(daily_rate), "working {} days per".format(days),"{} weeks".format(weeks))
+print('The total pay is: ${}'.format(daily_rate * days * weeks))
