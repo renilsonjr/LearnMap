@@ -1,5 +1,6 @@
 .venv/
 .DS_Store
+__pycache__/
 
 # zybooks / CTU exercise solutions - local only, never commit
 CTU_CODE_EXCERCISES*

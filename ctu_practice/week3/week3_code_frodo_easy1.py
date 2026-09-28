@@ -4,5 +4,10 @@
 snacks = ['snickers', 'tictac', 'bubble gum', 'chinese snack', 'bananada']
 
 
+print(snacks)
+print(snacks[0])
+print(snacks[2])
+print(snacks[4])
+
     
-print(len.snack0])
+
